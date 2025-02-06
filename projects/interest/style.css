@@ -1,0 +1,12 @@
+body{ font-family: Arial, Helvetica, sans-serif;color:black; font-size: medium; background-color:coral; }
+
+h1 { color: darkblue;}
+h2{ color: darkblue;}
+ .emphasize{ color: darkblue;}
+ .de-emphasize{ color: black;}
+
+ #firstpar{ font-style:oblique;font-size: large;}
+
+ #secondpar{ font-style: oblique; font-size: large;}
+
+ .india{ font-style: initial;font-size: larger;}
