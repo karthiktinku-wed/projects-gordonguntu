@@ -1,0 +1,6 @@
+body{ font-family: Arial, Helvetica, sans-serif; background: url(bluebg.jpg);}
+
+
+header{ font-size: larger;color: bisque;background-image: url(shirt.png) ;background-repeat: no-repeat; background-position: right;}
+
+.mylist{ list-style-image: url(shirt.png);}
