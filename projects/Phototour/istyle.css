@@ -1,1 +1,12 @@
 .mylist{ list-style-image: url(icon.png);}
+
+body{ color:blueviolet; font-family: Arial, Helvetica, sans-serif; background-image: url(bg.jpg);}
+
+.vizag{background-position: right;
+background-repeat: no-repeat;
+background-image: url(vizag.jpg);}
+
+
+
+nav a{ color: teal;}
+.current{ color: black;}
