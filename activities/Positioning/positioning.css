@@ -1,0 +1,15 @@
+body{ font-family: Arial, Helvetica, sans-serif; background-color: bisque;}
+
+.Nature{ width: 140px; border: thin solid black; box-shadow: 3px 3px 3px black;margin: 0%;}
+
+.floatimg { float: right;}
+
+.moving {  position: relative;}
+
+.Nature img { width: 100%;}
+
+.stop { clear: both;}
+
+nav a { background-color: aquamarine; display: block; padding: 10px 5px; border-bottom: 3px solid white;}
+
+
