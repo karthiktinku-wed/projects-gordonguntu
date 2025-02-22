@@ -1,10 +1,48 @@
-body{ font-family: Arial, Helvetica, sans-serif; background-color: firebrick;
+body{ font-family: Arial, Helvetica, sans-serif; background-color: rgb(197, 13, 13);
      color: black  }
+
+
+nav{ margin-left: 500px;}
+header{ 
+  text-align: center;
+   background-color: rgb(212, 21, 21);
+   padding: 30px;
+   margin: 25px;
+   width: 80%; border: double; 
+   
+height: 100px;
+  border-radius: 20px;
+   box-shadow: 3px 3px 8px;
+   margin-left: 65px;}
+
+
+h1{ text-shadow:2px 2px 8px  ;}
 
 
 .clear { 
     clear: both;
 }
+
+
+main { 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large; 
+  font-weight: bold; 
+  line-height:40px; 
+  text-align: left;
+  text-transform: none;
+  height:480px
+
+
+
+
+}
+
+
+
+
+.floatimg{ float: left }
+
 
 
 #wrapper
@@ -23,3 +61,12 @@ nav a { display: block; padding: 5px 10px; background-color: goldenrod;color:bei
 
 
 nav a:hover {  color: goldenrod; background-color: beige; text-decoration: underline;}  
+
+footer{ font-style: italic; background:url(logo.png) right no-repeat; height: 100px; }
+
+footer p{
+  text-align: center;
+}
+
+
+
