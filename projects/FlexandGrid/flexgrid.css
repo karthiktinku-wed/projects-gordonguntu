@@ -19,23 +19,67 @@ nav a {
 
 .mainrow{ 
 
+    display: flex;
+
+   
+    gap: 10px;
+  
+
+
+}
+
+.cardholder {
     display: grid;
-    grid-column: 5fr;
-    grid-template-areas: "myaside mymain mymain mymain mymain";
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    
+
+}
+
+.cards{ 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px;
+    text-align: center;
+    margin: 10px;
+    
+
+
+
+
+}
+
+.cards img{
+
+    width: 100px;
+    height: 100px;
+    margin: 0;
 
 }
 
 .aside{
-    grid-area: myaside;
+   
+    padding: 20px;
+    border-radius: 8px;
+    
+    margin: 10px;
+    height: 250px;
 }
 
 
 .main{
-    grid-area: mymain;
+ 
+
+     
 }
 .parent{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+footer a { display: block;
+}
+footer{
+    margin: 10px;
 }
 
 
