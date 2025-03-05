@@ -47,3 +47,32 @@ nav a:hover {
 .card img { 
     width: 100%;
 }
+@media ONLY screen AND ( max-width: 1500px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    .feature{
+        order: -1;
+    }
+}
+
+@media ONLY screen AND ( max-width: 600px) { 
+    header{ 
+        background-color: aquamarine;
+    }
+    nav{
+        flex-direction: column;
+    }
+
+    nav a {
+        border-bottom: thin solid rgb(15, 15, 15);
+    }
+    .card{ 
+        margin-bottom: 20px;
+    }
+
+}
