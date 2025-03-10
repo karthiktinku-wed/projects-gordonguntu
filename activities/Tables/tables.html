@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tables.css">
+<body>
+    <header>
+        <h1>Web Design</h1>
+    </header>   
+    <nav>
+
+    </nav>
+    <main>
+        <h2>When do you use a table?</h2>
+        <p>We use tables to present the data in an organized way making it easy to read or analyze or compare.</p>
+        <h2>When do you not use a table?</h2>
+        <p> We do not use table to layout or design a webpage.</p>
+        <h2>When do you need to do extra work for table accessibility?</h2>
+        <p> to make it easier to interpret data from complex tables or have a structured tables with headers and other important details. </p>
+
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th> Department</th>    
+                    <th>Number</th>
+                    <th>Time</th>
+                    <th>Location</th>
+                    <th>Credits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th colspan="5"> Winter 2025</th>
+                </tr>
+                <tr>
+                    <td> EIL</td>
+                    <td>320</td>
+                    <td>09:00-09:50 AM</td>
+                    <td>Mckay 110</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td> CS</td>
+                    <td>140</td>
+                    <td>11:00-11:50 AM</td>
+                    <td>P2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td> EIL</td>
+                    <td>201</td>
+                    <td>10:00-10:50 AM</td>
+                    <td>Mckay 120</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td> REL</td>
+                    <td>200</td>
+                    <td>12:00-12:50 PM</td>
+                    <td> Stake Centre </td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <th colspan="5">Spring 2025</th>
+                </tr>
+                <tr>
+                    <td> EIL</td>
+                    <td>201</td>
+                    <td>10:00-10:50 AM</td>
+                    <td>Mckay 120</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th id="total-credits" colspan="4">Total Credits</th>
+                    <td header="total-credits">15</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer>
+        <p> &copy; Gordon Guntu 2025</p>
+    </footer>
+    
+</body>
+</html>
