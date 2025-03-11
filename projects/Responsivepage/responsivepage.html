@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive page</title>
     <link rel="stylesheet" href="responsivepage.css">
+    <link rel="stylesheet" href="rprint.css" media="print">
 </head>
 <body>
     <Header>
-       <h1> My Family</h1>
+       <h1> Guntu Family</h1>
     </Header>
     <nav>
         <a href="#">Link</a>
@@ -17,27 +18,46 @@
         <a href="#">Link</a>
         <a href="#">Link</a>
     </nav>
-    <aside>
-        <figure>
-            <img src="family.jpg" alt=" My family">
-            <figcaption> 
-               <h2> My Family Picture</h2>
-             </figcaption>
-             <ul>
-                <li> </li>
-                <li> </li>
-                <li> </li>
-             </ul>
-        </figure>
+    <div class="pictures">
+        
+       
+        <aside>
+            <figure>
+                <img src="family.jpg" alt=" My family">
+                <figcaption> 
+                <h2> My Family Picture</h2>
+                </figcaption>
+            
+            </figure>
+            <ul>
+                <li> We are a family of 6</li>
+                <li> 3 of us have served our mission </li>
+                <li> We love each other </li>
+        </ul>
+        </aside>
+       
 
-    </aside>
-    <main>
-        <article> </article>
-        <article></article>
-        <article></article>
-        <article></article>
-        <article></article>
-    </main>
+
+        <main>
+            <article class="card"> 
+                <img src="parents.jpg" alt="Parents">
+                <h2> My Parents</h2>
+                <p> My dad's name is Ravindra Kumar and my mom's name is Chitra Jyothsna. They both are my strongest pillars in life. They both are professional teachers.</p>
+            </article>
+            <article class="card"> 
+                <img src="brothers.jpg" alt="Siblings">
+                <h2> Me and my Siblings</h2>
+                <p> I have two younger siblings, their names are Nelson and Benson. They are twins so they just love to be with each other. They are studying 12th grade. </p>
+            </article>
+            <article class="card">
+                <img src="Grandma.jpg" alt="Grandmother">
+                <h2> My Grandmother</h2>
+                <p> Her name is Grace and she is 70 years old. She loves cooking food and spending time with us. She always wanted to study and become independent but her parents got her married to my grandfather.</p>
+            </article>
+        </main>
+    
+
+    </div>
     <footer> 
         <p> &copy; Gordon Guntu 2025</p>
     </footer>

@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; background-color: beige;
+}
+
+header{
+    background-color: rgb(71, 160, 160);
+    padding: 10px;
+    
+}
+
+nav{
+    display: none;
+}
+
+.pictures{ 
+    display: flex;
+
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+p {
+    max-width: 200px;
+}
+
+.card{ 
+    border: thin solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 3px  ;
+    margin: 20px;
+    
+   
+}
