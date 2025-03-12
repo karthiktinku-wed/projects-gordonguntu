@@ -19,9 +19,16 @@
         <p> We do not use table to layout or design a webpage.</p>
         <h2>When do you need to do extra work for table accessibility?</h2>
         <p> to make it easier to interpret data from complex tables or have a structured tables with headers and other important details. </p>
+        <hr>
+        <hr>
+        <h2>Why don't we use the border attribute?</h2>
+        <p> to avoid validation error and also CSS styling makes it more flexible and have a different way to style</p>
+        <h2>What is the easiest way to color every other row a different color?</h2>
+        <p>To use the CSS pseudo- class to target rows like :nth child()</p>
 
-
-        <table border="1">
+        <h1>Tables</h1>
+        <table class="schedule">
+            <caption>Course Schedule</caption>
             <thead>
                 <tr>
                     <th> Department</th>    
@@ -77,7 +84,7 @@
             <tfoot>
                 <tr>
                     <th id="total-credits" colspan="4">Total Credits</th>
-                    <td header="total-credits">15</td>
+                    <th header="total-credits">15</th>
                 </tr>
             </tfoot>
         </table>
